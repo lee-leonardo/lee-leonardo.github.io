@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Minimum Viable Server"
-categories: [programming, js]
-tags: [blog]
+categories: [programming]
+tags: [blog, js]
 excerpt_separator: <!--more-->
 ---
 

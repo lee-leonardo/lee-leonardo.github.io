@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Adding Stylesheets Dynamically to the DOM"
-categories: [programming, js]
-tags: [blog]
+categories: [programming]
+tags: [blog, js]
 excerpt_separator: <!--more-->
 ---
 
