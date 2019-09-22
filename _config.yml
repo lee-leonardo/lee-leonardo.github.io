@@ -28,12 +28,12 @@ github : lee-leonardo
 
 # Github Development
 production_url: http://username.github.io
-baseurl: "https://lee-leonardo.github.io/" # the the static url path of your site, e.g. http://example.com/blog
+baseurl: "https://lee-leonardo.github.io" # the the static url path of your site, e.g. http://example.com/blog
 url: "https://lee-leonardo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github:
   user: "https://github.com/lee-leonardo"
-  repo: "https://github.com/lee-leonardo/blog-dev"
+  repo: "https://github.com/lee-leonardo/lee-leonardo.github.io"
 
 twitter_username: theChromatose
 github_username:  lee-leonardo
