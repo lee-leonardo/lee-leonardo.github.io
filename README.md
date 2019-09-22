@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
-[link to blog](https://lee-leonardo.github.io/blog-dev/)
-[url to docs](/2019-07-26-introductions.MARKUP)
+- [link to blog](https://lee-leonardo.github.io/)
+- [url to docs](/2019-07-26-introductions.MARKUP)
 
 You can use the [editor on GitHub](https://github.com/lee-leonardo/blog-dev/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
