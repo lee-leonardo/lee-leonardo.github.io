@@ -22,14 +22,8 @@ version: 0.0.1
 name : Leonardo Lee
 github : lee-leonardo
 
-# Local Development
-baseurl: "" # the the static url path of your site, e.g. http://example.com/blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 # Github Development
 production_url: http://username.github.io
-# baseurl: "https://lee-leonardo.github.io" # the the static url path of your site, e.g. http://example.com/blog
-# url: "https://lee-leonardo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github:
   user: "https://github.com/lee-leonardo"
@@ -68,9 +62,9 @@ permalink: /:title/
 
 # Use once I get everything sorted.
 # Set the Sass partials directory, as we're using @imports
-# sass:
-  # sass_dir: _sass
-  # style: :expanded # You might prefer to minify using :compressed
+sass:
+  sass_dir: _sass
+  style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 plugins:
