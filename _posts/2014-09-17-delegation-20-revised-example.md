@@ -10,9 +10,10 @@ excerpt_separator: <!--more-->
 
 To supplement my previous post on Delegation (it seems to be a topic that is troublesome especially to those newer to CS). This is primarily to be cleaner and also provide extra notes.
 
+## Protocol
+
 ```swift
-    //Delegating
-    class protocol DelegatorProtocol {
+    protocol DelegatorProtocol {
         func requiredMedthod()
         optional func anotherMethod()
     }
@@ -23,11 +24,10 @@ To supplement my previous post on Delegation (it seems to be a topic that is tro
             self.delegate?.requiredMethod()
         }
     }
-    //Delegate
+
     class TheDelegate : DelegatorProtocol {
         func requiredFunction() {
             //Required to implement the function.
-            ...
         }
     }
 ```

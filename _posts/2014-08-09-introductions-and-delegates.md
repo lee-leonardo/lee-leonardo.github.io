@@ -37,7 +37,31 @@ Just to note: Delegation is actually a pattern based off of protocols. In OO pro
 
 Delegate chaining is what occurs when a delegate is called by a class to pass class down a hierarchy. This gets hairy quickly and is not reccomended for chains longer than 2 classes.
 
-    protocol AmbassadorDelegate { func passTheBuck(variableToPass: String) } class Ambassador: Person { var delegate: AmbassadorDelegate? func passingToDelegate(thingToPass: String) { self.delegate!.passTheBuck(thingToPass) } } class Governor: Person, AmbassadorDelegate { var delegate: AmbassadorDelegate? func passTheBuck(thingToPass: String) { self.delegate!.passTheBuck(thingToPass) } } class Secretary: Person, AmbassadorDelegate { var thingPassed: String func passTheBuck(thingToPass: String) { thingPassed = thingToPass } }
+```swift
+    protocol AmbassadorDelegate {
+        func passTheBuck(variableToPass: String)
+    }
+
+    class Ambassador: Person {
+        var delegate: AmbassadorDelegate?
+        func passingToDelegate(thingToPass: String) {
+            self.delegate!.passTheBuck(thingToPass)
+        }
+    }
+
+    class Governor: Person, AmbassadorDelegate {
+        var delegate: AmbassadorDelegate?
+        func passTheBuck(thingToPass: String) {
+            self.delegate!.passTheBuck(thingToPass)
+        }
+    }
+
+    class Secretary: Person, AmbassadorDelegate {
+        var thingPassed: String func passTheBuck(thingToPass: String) {
+            thingPassed = thingToPass
+        }
+    }
+```
 
 I hope from this example it is clear why chaining delegates becomes hairy quickly, and LLVM apparently doesn't enjoy it as well. I was told in class that using NSNotification centers and observers are preferable. I haven't looked deeply into it, but from my reading the reference it seems apparent. In essence decoupling code and creating observers is probably a better design for the code in this kind of situation.
 
