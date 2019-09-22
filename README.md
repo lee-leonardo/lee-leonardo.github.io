@@ -1,40 +1,40 @@
-# Jekyll-Bootstrap
+## Welcome to GitHub Pages
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+[link to blog](https://lee-leonardo.github.io/blog-dev/)
+[url to docs](/2019-07-26-introductions.MARKUP)
 
-## Usage
+You can use the [editor on GitHub](https://github.com/lee-leonardo/blog-dev/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Version
+### Markdown
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
+```markdown
+Syntax highlighted code block
 
-## Contributing
+# Header 1
+## Header 2
+### Header 3
 
+- Bulleted
+- List
 
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
+1. Numbered
+2. List
 
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
+**Bold** and _Italic_ and `Code` text
 
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
+[Link](url) and ![Image](src)
+```
 
-**Jekyll-Bootstrap Documentation Website.**
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
+### Jekyll Themes
 
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lee-leonardo/blog-dev/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-## License
+### Support or Contact
 
-[MIT](http://opensource.org/licenses/MIT)
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
