@@ -2,7 +2,7 @@
 layout: post
 title: "Introductions and Delegates"
 categories: [programming]
-tags: [blog, cocoa, ios]
+tags: [cocoa, ios]
 excerpt_separator: <!--more-->
 ---
 

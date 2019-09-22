@@ -2,7 +2,7 @@
 layout: post
 title: "Target Action Blurb"
 categories: [programming]
-tags: [blog, ios, swift, cocoa, closures]
+tags: [ios, swift, cocoa, closures]
 excerpt_separator: <!--more-->
 ---
 

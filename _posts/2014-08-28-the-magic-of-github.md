@@ -2,7 +2,7 @@
 layout: post
 title: "The magic of git and github"
 categories: [programming]
-tags: [blog, git, github, mvc]
+tags: [git, github, mvc]
 excerpt_separator: <!--more-->
 ---
 

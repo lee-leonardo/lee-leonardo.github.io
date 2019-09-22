@@ -2,7 +2,7 @@
 layout: post
 title: "Auto layout tips"
 categories: [programming]
-tags: [blog, cocoa, ios, mindset]
+tags: [cocoa, ios, mindset]
 excerpt_separator: <!--more-->
 ---
 
