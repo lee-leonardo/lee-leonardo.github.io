@@ -10,7 +10,7 @@ group: navigation
 </ul>
 
 
-{% for category in site.categories %}
+{% for post in site.programming %}
     <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -21,10 +21,5 @@ group: navigation
 
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
-
-    <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-    <ul>
-            {% assign pages_list = category[1] %}
-    </ul>
 {% endfor %}
 
