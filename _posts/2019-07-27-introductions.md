@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introductions"
-categories: [blog, coding, ghost]
+categories: [blog, programming, ghost]
 tags: [ghost, blogging]
 ---
 

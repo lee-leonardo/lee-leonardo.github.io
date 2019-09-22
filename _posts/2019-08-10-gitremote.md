@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Git Remotes and the Beauty of Forking"
-categories: [blog, coding, git, github]
+categories: [blog, programming, git, github]
 tags: [ghost, blogging]
 ---
 

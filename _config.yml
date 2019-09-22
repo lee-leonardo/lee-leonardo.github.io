@@ -38,6 +38,14 @@ github:
 twitter_username: theChromatose
 github_username:  lee-leonardo
 
+# Filters for sub-blogs
+blog_programming: "programming"
+blog_vg_dev: "game_development"
+blog_tt_dev: "tabletop_development"
+blog_reviews: "reviews"
+blog_philosophy: "philosophy"
+blog_tabletop: "tabletop"
+
 # Build settings
 markdown: kramdown
 # theme: jekyll-theme-minimal
@@ -46,20 +54,6 @@ plugins:
 
 permalink: /:title/
 # permalink: /:categories/:year/:month/:day/:title
-
-collections:
-  programming:
-    coding: true
-    programming: true
-    jekyll: true
-    ghost: true
-  game_development:
-    godot: true
-    unreal: true
-  board_games:
-    tabletop: true
-    boardgaming: true
-    board_games: true
 
 # Jekyll settings...
 # Jekyll 3 now only supports Kramdown for Markdown
