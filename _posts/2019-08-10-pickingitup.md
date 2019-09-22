@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Picking it back up"
-categories: [blog, programming, ghost]
+categories: [programming]
 tags: [ghost, blogging]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Messing with Jekyll pt. 2
-categories: [blog, programming, jekyll]
+categories: [programming]
 tags: [jekyll, blogging]
 ---
 

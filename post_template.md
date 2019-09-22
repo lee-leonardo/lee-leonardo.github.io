@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Template Post"
-categories: [blog]
-tags: [blog]
+categories: [blog_type]
+tags: [blog_tags]
 excerpt_separator: <!--more-->
 ---
 
