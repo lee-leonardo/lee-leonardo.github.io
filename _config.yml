@@ -40,12 +40,26 @@ github_username:  lee-leonardo
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
 permalink: /:title/
 # permalink: /:categories/:year/:month/:day/:title
+
+collections:
+  programming:
+    coding: true
+    programming: true
+    jekyll: true
+    ghost: true
+  game_development:
+    godot: true
+    unreal: true
+  board_games:
+    tabletop: true
+    boardgaming: true
+    board_games: true
 
 # Jekyll settings...
 # Jekyll 3 now only supports Kramdown for Markdown
@@ -61,6 +75,7 @@ permalink: /:title/
 # Use once I get everything sorted.
 # Set the Sass partials directory, as we're using @imports
 # sass:
+  # sass_dir: _sass
   # style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
