@@ -1,0 +1,11 @@
+@import "mixins";
+
+.post-title {
+    margin-bottom: 8px;
+}
+
+.post-date {
+    color: $color-metadata;
+    display: block;
+    margin-bottom: 16px;
+}

@@ -6,6 +6,16 @@
     line-height: 1.5;
 }
 
-.post-date {
-    color: $color-metadata;
+.entry {
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3, h4, h5, h6 {
+        font-size: 18px;
+    }
 }
