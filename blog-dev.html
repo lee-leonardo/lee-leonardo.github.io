@@ -9,7 +9,9 @@ group: navigation
     {% if post.categories contains site.blog_programming %}
         <article class="post">
 
-            <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+            <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+            <span>{{ post.date | date_to_string }}</span>
+
 
             <div class="entry">
                 {{ post.excerpt }}

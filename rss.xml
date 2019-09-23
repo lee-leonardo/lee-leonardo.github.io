@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: nil
 title : RSS Feed
 ---
@@ -25,4 +25,4 @@ title : RSS Feed
 {% endfor %}
 
 </channel>
-</rss>
+</rss> -->

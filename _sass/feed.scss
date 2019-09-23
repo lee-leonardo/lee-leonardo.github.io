@@ -1,0 +1,11 @@
+@import "mixins";
+
+.read-more {
+    @include header-text;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.post-date {
+    color: $color-metadata;
+}
