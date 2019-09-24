@@ -3,12 +3,15 @@ layout: post
 title: "Git Remotes and the Beauty of Forking"
 categories: [programming]
 tags: [ghost, blogging, git, github]
+excerpt_separator: <!--more-->
 ---
 
 This post requires some prerequisite knowledge in the basics of git.
 I'll do my best to explain terms as I go, but I'll look to developing another post that will give an overview and sources to get people up to speed.
 TBH there is not easy way to learn the basics of git without pragmatic practice.
 I will try to make this blog post systematic as possible to facilitate the learning of both myself and others.
+
+<!--more-->
 
 ## Terms
 

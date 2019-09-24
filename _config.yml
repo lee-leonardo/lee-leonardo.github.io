@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Leonardo Lee
-tagline: Software Engineer, Cyclist, Table Top gaming enthusiast, history nut, philosophical muser, and life long learner.
+tagline:
 email: lee.leonardo.king@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal development blog interim or maybe even permanent. Got rid of squarespace.
+  Software Engineer, Cyclist, Table Top gaming enthusiast, history nut, philosophical muser.
 version: 0.0.1
 name : Leonardo Lee
 github : lee-leonardo

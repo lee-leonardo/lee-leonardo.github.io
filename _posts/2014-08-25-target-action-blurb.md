@@ -20,6 +20,8 @@ For a pragmatic example of how Target-Action is used, they are easy to use for l
     }
 ```
 
+<!--more-->
+
 ## Chunks
 
 It seems weird at reading it, but keep in mind that the target is enacting the object. **Sender** is easy to

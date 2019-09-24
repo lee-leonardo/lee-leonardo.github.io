@@ -3,11 +3,14 @@ layout: post
 title: "Picking it back up"
 categories: [programming]
 tags: [ghost, blogging]
+excerpt_separator: <!--more-->
 ---
 
 After spending some time snooping around for a place (finally got a new apartment), now it's time back to get coding.
 This blog is taking some time to build which is fine, I'm learning new tools, doing algorithm practice, and just getting resituated with life.
 We are excited about our next move and I hope it lasts more than a year.
+
+<!--more-->
 
 Ghost has a pretty manual setup that requires some git/github knowledge. Not much, but learning how to set up different remotes is paramount for development.
 
