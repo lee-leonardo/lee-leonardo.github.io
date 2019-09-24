@@ -10,8 +10,7 @@ group: navigation
         <article class="post">
 
             <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-            <span>{{ post.date | date_to_string }}</span>
-
+            <span class="post-date">{{ post.date | date_to_string }}</span>
 
             <div class="entry">
                 {{ post.excerpt }}

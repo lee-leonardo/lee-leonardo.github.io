@@ -1,0 +1,23 @@
+@import "mixins";
+
+.masthead {
+    margin-bottom: 16px;
+}
+
+.tagline {
+    display: inline-block;
+    color: #9a9a9a;
+    font-size: 14px;
+}
+
+.sidebar-footer {
+    bottom: 0;
+    display: block;
+    width: 100%;
+    position: fixed;
+    padding: 0 16px;
+}
+
+.sidebar-footer__version {
+
+}

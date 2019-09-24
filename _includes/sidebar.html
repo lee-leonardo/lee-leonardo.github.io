@@ -26,10 +26,10 @@
     {% endfor %}
 
     <a class="sidebar-nav-item" href="{{ site.github.user }}">Github</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
-  <div class="sidebar-item">
+  <div class="sidebar-footer">
+    <p class="sidebar-footer__version">Currently v{{ site.version }}</p>
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
