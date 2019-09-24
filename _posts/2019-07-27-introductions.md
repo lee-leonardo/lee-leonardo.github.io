@@ -5,8 +5,6 @@ categories: [programming]
 tags: [ghost, blogging]
 ---
 
-# Introductions
-
 Hello I am Leonardo Lee, I am currently a developer at Expedia Group.
 I work in the Partner Services division of Expedia providing tools for partners to manage their properties.
 
