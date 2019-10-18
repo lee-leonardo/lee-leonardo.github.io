@@ -2,7 +2,7 @@
 layout: post
 title: "Late September and Beyond"
 categories: [programming]
-tags: [jekyll, blogging, squarespace, sass]
+tags: [blogging, projects]
 excerpt_separator: <!--more-->
 ---
 
