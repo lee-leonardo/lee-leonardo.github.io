@@ -64,7 +64,7 @@ diskutil secureErase <0-4 a security level, 0 being least secure> <path>
 
 ```
 
-Ultimately I just used `diskutil zeroDisk` to clear the disk and reformat it. It however doesn't affect the Bios of the card and also it seems like even though the tool said that it zero'd everything, the BIOS seems irreparably damaged and the changes although accepted did not write properly. Going to look to see about another fix today.
+Ultimately I just used `diskutil zeroDisk` to clear the disk and reformat it. It however doesn't affect the BIOS of the card and also it seems like even though the tool said that it zero'd everything, the BIOS seems irreparably damaged and the changes although accepted did not write properly. Going to look to see about another fix today. The BIOS doesn't seem like it's a problem I can resolve, the damage isn't repairable via the command line or the GUI tools. I don't know enough about the silicone to actually know if it's a fixable solution.
 
 
 ## Sources
