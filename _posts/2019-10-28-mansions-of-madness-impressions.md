@@ -2,7 +2,7 @@
 layout: post
 title: "Mansions of Madness (First Impressions)"
 categories: [reviews]
-tags: [blog, tabletop, FFG, Fantasy Flight Games, App]
+tags: [blog, tabletop, FFG, Fantasy Flight Games, app, cthulhu, arkham, Nikki Valens, thematic]
 excerpt_separator: <!--more-->
 ---
 
