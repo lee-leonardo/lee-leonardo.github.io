@@ -1,0 +1,28 @@
+{
+  "name": "lee-leonardo.github.io",
+  "version": "1.0.0",
+  "description": "My webpage, that I'm adding react to.",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lee-leonardo/lee-leonardo.github.io.git"
+  },
+  "author": "Leonardo Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lee-leonardo/lee-leonardo.github.io/issues"
+  },
+  "homepage": "https://github.com/lee-leonardo/lee-leonardo.github.io#readme",
+  "devDependencies": {
+    "ts-loader": "^6.2.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
