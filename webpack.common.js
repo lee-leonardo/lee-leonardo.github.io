@@ -16,6 +16,5 @@ module.exports = {
           }
         ]
       },
-      mode: 'development' // 'production' // for minified
-    };
-}
+    }
+};
