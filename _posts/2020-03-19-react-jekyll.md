@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "React and Jekyll"
+title: "React and Jekyll (0)"
 categories: [programming]
 tags: [blog, programming, react, node, ruby, gems, jekyll]
 excerpt_separator: <!--more-->
