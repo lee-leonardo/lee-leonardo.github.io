@@ -19,3 +19,11 @@ Each of the games play with themes in the Indiana Jones movies, exhilarating set
 ## Recommendation?
 
 Not sure if I'd recommend the series, the basic execution varies in quality and against since I really don't like shooting games I would say I'm not the best judge. I will say however from a cinematic perspective it is enjoyable especially if you like the adventure style movies. For me I'm completing the series, but not spending more than the bare minimum game time, as I received the product for free I'm not compelled to nor do I feel the obligation. Seeing the story through was satisfying but it really wasn't my cup of tea. Bioshock was an exception to this rule, due to the sandbox nature of the game systems and interesting story, this doesn't have the same gravitas as those titles so I do not keep them on the same caliber.
+
+## Frustrations
+
+I thought that the first game was probably the easiest in terms of combat, 2 and 3 add more elements and it is more interesting, however they also add these really tanky enemies that are just frustrating to deal with. Grenade counter throwing in 3 helped with the frustration a bit, and the melee system in 3 is better than 2.
+
+## Summa
+
+If you wanted to check it out, I'd say start with 2 or 3. The first isn't good enough to recommend and the characters introduced in 1 don't really change much in the series.
