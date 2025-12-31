@@ -1,0 +1,27 @@
+---
+title: "Clang-ing it"
+description: "Article about Clang-ing it"
+pubDate: '2019-10-24'
+heroImage: '../../assets/blog-placeholder-1.jpg'
+tags:
+  - blogging
+  - c++
+  - cpp
+  - c
+  - clang
+  - llvm
+categories: [programming]
+---
+
+This seems like it could be a no brainer for some people but I was puzzled on this today for a few hours, hence I'm going to be talking about it. Clang. So I'm used to using clang to build and link C files, and I am starting to work on C++ just for personal learning as well as to spruce up my skills in C languages. I was having trouble figuring out how to get C++ files linked and it was because I was using `clang` rather than `clang++`.
+
+```bash
+# For C:
+clang <arguments> <files> -o <bin name>
+# For C++:
+clang++ <arguments> <files> -o <bin name>
+# For Obj-C:
+clang <arguments> <files> -o <bin name>
+```
+
+Notice that Objective-C is the same as C, this is because Objective-C is a superset language of C. Meaning it expands and enhances the features of C rather than is another language that borrow elements of the former.
