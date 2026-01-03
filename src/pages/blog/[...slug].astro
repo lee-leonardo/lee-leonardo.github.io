@@ -1,20 +1,47 @@
 ---
 import { type CollectionEntry, getCollection, render } from "astro:content";
 import BlogPost from "../../layouts/BlogPost.astro";
+import { getSanityPosts } from "../../lib/sanity";
 
 export async function getStaticPaths() {
     const posts = await getCollection("blog");
-    return posts.map((post) => ({
-        params: { slug: post.id },
-        props: post,
-    }));
-}
-type Props = CollectionEntry<"blog">;
+    const sanityPosts = await getSanityPosts();
 
-const post = Astro.props;
-const { Content } = await render(post);
+    const allRoutes = [
+        ...posts.map((post) => ({
+            params: { slug: post.id },
+            props: { type: 'local' as const, post },
+        })),
+        ...sanityPosts.map((post: any) => ({
+             params: { slug: post.slug },
+             props: { type: 'sanity' as const, post },
+        }))
+    ];
+
+    return allRoutes.sort((a, b) => {
+        const dateA = new Date(a.props.post.data?.pubDate || a.props.post.pubDate).valueOf();
+        const dateB = new Date(b.props.post.data?.pubDate || b.props.post.pubDate).valueOf();
+        return dateB - dateA;
+    });
+}
+
+type Props = 
+    | { type: 'local'; post: CollectionEntry<'blog'> }
+    | { type: 'sanity'; post: any };
+
+const { type, post } = Astro.props;
+let Content;
+let postData;
+
+if (type === 'local') {
+    const rendered = await render(post);
+    Content = rendered.Content;
+    postData = post.data;
+} else {
+    postData = post;
+}
 ---
 
-<BlogPost {...post.data}>
-    <Content />
+<BlogPost {...postData}>
+    {Content ? <Content /> : null}
 </BlogPost>
